@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-website"
+version = "0.1.0"
+description = ""
+authors = ["AlnurT <alnur.tazhbenov@mail.ru>"]
+readme = "README.md"
+packages = [{include = "my_website"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
