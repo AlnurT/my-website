@@ -8,6 +8,9 @@ packages = [{include = "my_website"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+
+
+[tool.poetry.dev-dependencies]
 pre-commit = "^3.3.2"
 
 
