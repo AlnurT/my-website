@@ -10,6 +10,16 @@ packages = [{include = "my_website"}]
 python = "^3.11"
 pre-commit = "^3.3.2"
 black = "^23.3.0"
+isort = "^5.12.0"
+
+[tool.black]
+include = '\.pyi?$'
+exclude = 'venv'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+skip_gitignore=true
 
 
 [build-system]
