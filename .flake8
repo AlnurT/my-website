@@ -1,13 +1,14 @@
 [flake8]
-ignore = E203, E501, W503,  # handled by black
-         ANN101, ANN204,
-         D104,  # no docstring in public package
-         D200,  # One-line docstring should fit on one line with quotes
-         D107,  # Missing docstring in __init__
-         T201,  # Print found
-         S311,  # Standard pseudo-random generators are not suitable for security/cryptographic purposes
-         S101,  # Use of assert detected. The enclosed code will be removed when compiling to optimised byte code
-         C417,  # Unnecessary use of map - use a generator expression instead
+ignore =
+    # handled by black
+    E203, E501, W503,
+    ANN101, ANN204,
+    # no docstring in public package
+    D104,
+    # One-line docstring should fit on one line with quotes
+    D200,
+    # Missing docstring in __init__
+    D107,
 
 
 per-file-ignores =
