@@ -1,10 +1,8 @@
 [tool.poetry]
 name = "my-website"
 version = "0.1.0"
-description = ""
+description = "First project - my website"
 authors = ["AlnurT <alnur.tazhbenov@mail.ru>"]
-readme = "README.md"
-packages = [{include = "my_website"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
